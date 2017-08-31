@@ -1,0 +1,12 @@
+length = input ("Enter side lengths: ")
+#in order to compare, the numbers need to be seperated into individual components first. 
+a=length[0]
+b=length[2]
+c=length[4]
+#need to determine if all values are equal
+if a == b == c:
+     print ("The triangle is an equilateral triangle.")
+else:
+    print ("Sadly, the triangle is not equilateral. Find a better triangle.")
+
+#question, this works as long as the input is integers <10. How do I seperate by space so I can compare values >9? eg input 1230 1230 24
